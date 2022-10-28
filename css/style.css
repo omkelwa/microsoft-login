@@ -1,0 +1,58 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background:#dfdcde;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.main-section{
+    background:white;
+    height:350px;
+    width:400px;
+    display:flex;
+    flex-direction: column;
+    padding:30px;
+
+}
+.main-section h2, p, a{
+    padding-top:20px;
+}
+.main-section input{
+    margin-top:20px;
+    border:none;
+    border-bottom: 1px solid black;
+    background:none;
+}
+.main-section img{
+    width:200px;
+}
+.main-section a{
+    text-decoration: none;
+    color:rgb(89, 156, 209)
+}
+.main-section .nxt-btn{
+    background:rgb(96, 96, 187);
+    color:white;
+    height:30px;
+    width:100px;
+    border:none;
+    margin-left:220px;    
+    margin-top:20px;
+}
+/*sign in section starts */
+.signin-section{
+    background:white;
+    margin-top:20px;
+    height:50px;
+    width:400px;
+    padding:10px 50px;
+    font-size:20px;
+}
